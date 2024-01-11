@@ -1,6 +1,10 @@
 // Run this sample code as-is and examine the output. 
 // Should the shuttle have launched? 
+// It should not launch beacuse the fuelLevel is below 20000 but in our second if-else loop chnaged the launchReady flag to true. Because of that 3rd loop executed.
+
 // Did it?
+// Yes it is launched but it shouldn't we have to correct in 2nd loop using if elseif else loop
+
 // Do not worry about fixing the code yet, we will do that in the next series of exercises.
 
 let launchReady = false;

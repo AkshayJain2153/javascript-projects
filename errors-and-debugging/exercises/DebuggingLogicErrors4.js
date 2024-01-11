@@ -3,6 +3,7 @@
 
 // Given the values for fuelLevel, crewStatus and computerStatus, should launchReady be true or false?
 // Is the program behaving as expected?
+// It is working as per the loop logic but it should not launch because of fuelLevel
 
 let launchReady = false;
 let fuelLevel = 17000;
